@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:"Segoe UI", Arial;
+	font-size:14px;
+}
+
+nav{
+	background-color:#039;
+	font-family:"Franklin Gothic Medium", "Franklin Gothic Demi", "Franklin Gothic Book";
+	font-size:18px;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav ul li{
+	display:inline-table;
+}
+nav ul li:hover{
+	cursor:pointer;
+	background-color:#f00;
+}
+nav ul li a{
+	line-height:40px;
+	display:block;
+	padding:0 10px;
+	text-decoration:none;
+	color:#fff;
+}
+.utama ul{
+	list-style:none;
+	position:absolute;
+	z-index:2;
+	display:none;
+}
+.utama:hover ul{
+	display:block;
+}
+.utama ul li{
+	display:block;
+	background-color:#093;
+	width:150px;
+	margin:0;
+}
+.utama ul li:hover{
+	background-color:#f90;
+}
+
+main{
+	border:1px solid #039;
+	border-top:0;
+	min-height:550px;
+	padding:20px;	
+	background-image:url(../img/bg.jpg);
+}
+
+footer{
+	text-align:right;
+	font-family:"Franklin Gothic Medium", "Franklin Gothic Demi", "Franklin Gothic Book";
+	font-size:11px;
+}
+
+#pesan{
+	background-color:rgba(255,0,0,0.5);
+	border-left:5px solid #f00;
+	padding:5px;
+	color:#fff;
+	margin-bottom:5px;
+	display:none;
+}
+input[type="text"], input[type="password"], input[type="number"], textarea{
+	border:1px solid #999;
+	padding:5px;
+	width:200px;
+}
+textarea{
+	font-family:"Segoe UI", Arial;
+	height:55px;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="password"]:focus, textarea:focus{
+	border:1px solid #f00;
+}
+
+input.pencarian{
+	padding:7px;
+	width:300px;
+}
+button.cari{
+	padding:6px 7px 6px 7px;
+	background-color:#f90;
+}
+
+button{
+	padding:6px;
+	border:0;
+	color:#fff;
+	font-size:16px;
+	background-color:#3c0;
+	font-family:"Franklin Gothic Medium", "Franklin Gothic Demi", "Franklin Gothic Book";
+}
+button:hover{
+	background-color:#390;
+	cursor:pointer;
+}
+
+table.data{
+	border-collapse:collapse;
+	width:100%;
+}
+table.data tr:nth-child(odd){
+	background-color:#ffc;
+}
+
+table.data th{
+	padding:10px;
+	background-color:#36f;
+	color:#fff;
+	border:1px solid #36f;
+}
+table.data td{
+	padding:5px;
+	border-left:1px solid #36f;
+	border-bottom:1px solid #36f;
+}
+table.data td:last-child{
+	text-align:center;
+	border-right:1px solid #36f;
+}
+
+table.data button, table button{
+	padding:4px;
+	border:0;
+	color:#fff;
+	background-color:#f60;
+	font-family:"Franklin Gothic Medium", "Franklin Gothic Demi", "Franklin Gothic Book";
+}
+table.data button:hover, table button:hover{
+	background-color:#f00;
+	cursor:pointer;
+}
+
+fieldset.utama {
+	padding:10px 20px 20px 20px;
+}
+legend {
+	font-family:"Franklin Gothic Medium", "Franklin Gothic Demi", "Franklin Gothic Book";
+	font-size: 16px;
+	font-weight: bold;
+}
+
+select{
+	border:1px solid #999;
+}
+select:focus{
+	border:1px solid #f00;
+}
+option{
+	padding:6px;
+}
+
+
+#bg-popup{
+	background-color:rgba(0,0,0,0.8);
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:fixed;
+	z-index:2;
+	display:none;
+}
+#popup{
+	background-color:#fff;
+	padding:20px;
+	display:none;
+	z-index:3;
+	position:absolute;
+}

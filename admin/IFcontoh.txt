@@ -1,0 +1,44 @@
+
+<?php 
+#validasi kelas
+if ($_POST[cmb_jeniskelamin]=="laki-laki"){
+	if($_POST[cmb_kelas]=="54.1-58"){
+    	echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putra '); </script>";
+        }
+	else if($_POST[cmb_kelas]=="58.1-62"){
+    	echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putra '); </script>";
+        }
+	}
+else if ($_POST[cmb_jeniskelamin]=="perempuan"){
+	if($_POST[cmb_kelas]=="49.1-52"){
+    	echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+        }
+	else if ($_POST[cmb_kelas]=="52.1-55"){
+		echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+		}
+	else if ($_POST[cmb_kelas]=="55.1-58"){
+		echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+		}
+	else if ($_POST[cmb_kelas]=="58.1-61"){
+		echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+		}
+	else if ($_POST[cmb_kelas]=="61.1-64"){
+		echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+		}
+	else if ($_POST[cmb_kelas]=="64.1-67"){
+		echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+		}
+	else if ($_POST[cmb_kelas]=="67.1-70"){
+		echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+		}
+	else if ($_POST[cmb_kelas]=="70.1-75"){
+		echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+		}
+	else if ($_POST[cmb_kelas]=="75.1-80"){
+		echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+		}
+	else if ($_POST[cmb_kelas]=="80-keatas"){
+		echo"<script>window.alert('kelas tersebut tidak tersedia untuk atlet putri '); </script>";
+		}
+	}
+	?>
